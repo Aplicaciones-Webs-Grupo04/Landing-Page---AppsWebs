@@ -3722,6 +3722,305 @@ ol {
     bottom: 50px;
 }
 
+*======================================
+Blog CSS
+========================================*/
+.blog-section {
+    background-color: #fff;
+}
+
+.blog-section .section-title {
+    margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .blog-section .section-title {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .blog-section .section-title {
+        margin-bottom: 20px;
+    }
+}
+
+/* Single Blog Grid*/
+.single-blog-grid {
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.089);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.089);
+    overflow: hidden;
+}
+
+.single-blog-grid .blog-img {
+    overflow: hidden;
+}
+
+.single-blog-grid .blog-img a {
+    width: 100%;
+}
+
+.single-blog-grid .blog-img img {
+    width: 100%;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.single-blog-grid:hover .blog-img img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.single-blog-grid .blog-content {
+    padding: 35px;
+}
+
+.single-blog-grid .blog-content .meta-info {
+    margin-bottom: 20px;
+}
+
+.single-blog-grid .blog-content .meta-info a {
+    display: inline-block;
+    margin-right: 22px;
+    font-size: 14px;
+    color: #727272;
+    font-weight: 500;
+}
+
+.single-blog-grid .blog-content .meta-info a i {
+    display: inline-block;
+    margin-right: 5px;
+    color: #10BEAE;
+    font-size: 16px;
+}
+
+.single-blog-grid .blog-content .meta-info a:last-child {
+    margin: 0;
+}
+
+.single-blog-grid .blog-content .meta-info a:hover {
+    color: #10BEAE;
+}
+
+.single-blog-grid .blog-content h4 {
+    display: block;
+    line-height: 28px;
+}
+
+.single-blog-grid .blog-content h4 a {
+    font-size: 17px;
+    color: #081828;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.single-blog-grid .blog-content h4 a:hover {
+    color: #10BEAE;
+}
+
+.single-blog-grid .blog-content p {
+    display: block;
+    margin-top: 20px;
+}
+
+.single-blog-grid .blog-content .button {
+    margin-top: 20px;
+}
+
+.single-blog-grid .blog-content .button .btn {
+    padding: 0;
+    background-color: transparent;
+    color: #081828;
+    text-decoration: underline;
+    overflow: visible;
+}
+
+.single-blog-grid .blog-content .button .btn:hover {
+    color: #10BEAE;
+}
+
+.blog-list {
+    background: #F4F7FA;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+    .blog-list .pagination {
+        margin-top: 20px;
+    }
+}
+
+.blog-list .single-blog {
+    margin: 0;
+}
+
+.blog-list .single-blog {
+    margin-bottom: 30px;
+}
+
+/* News Details */
+.blog-single {
+    background: #fff;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 1400px) {
+    .blog-single .main-content-head {
+        padding-right: 30px;
+    }
+}
+
+.blog-single .meta-info {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.blog-single .meta-info li {
+    font-size: 15px;
+    display: inline-block;
+    margin-right: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    .blog-single .meta-info li {
+        margin-bottom: 8px;
+    }
+}
+
+.blog-single .meta-info li::before {
+    position: absolute;
+    content: "";
+    right: -5px;
+    top: 50%;
+    background-color: #d2d2d2;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.blog-single .meta-info li:last-child {
+    margin: 0;
+    padding: 0;
+}
+
+.blog-single .meta-info li:last-child::before {
+    display: none;
+}
+
+.blog-single .meta-info li a {
+    color: #888;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.blog-single .meta-info li a i {
+    display: inline-block;
+    margin-right: 2px;
+}
+
+.blog-single .meta-info li a:hover {
+    color: #10BEAE;
+}
+
+.blog-single .meta-info li a img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.blog-single .post-thumbnils {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .blog-single .post-thumbnils {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .blog-single .post-thumbnils {
+        margin-bottom: 30px;
+    }
+}
+
+.blog-single .post-thumbnils img {
+    width: 100%;
+}
+
+.blog-single .post-title {
+    line-height: 40px;
+    font-size: 26px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .blog-single .post-title {
+        line-height: 40px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 767px) {
+    .blog-single .post-title {
+        line-height: 32px;
+        font-size: 20px;
+    }
+}
+
+.blog-single p {
+    font-size: 15px;
+    margin: 30px 0;
+    line-height: 26px;
+}
+
+.blog-single p:first-child {
+    margin-top: 0;
+}
+
+.blog-single p:last-child {
+    margin-bottom: 0;
+}
+
+.blog-single h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+@media (max-width: 767px) {
+    .blog-single h3 {
+        font-size: 18px;
+    }
+}
+
+.blog-single .image-block {
+    margin: 30px 0;
+}
+
+.blog-single .image-block img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+@media (max-width: 767px) {
+    .blog-single .image-block img {
+        margin: 10px 0;
+    }
+}
+
 /*======================================
 	Footer CSS
 ========================================*/
