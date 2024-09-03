@@ -36,9 +36,6 @@
         }
     };
 
-    // WOW active
-    new WOW().init();
-
     //===== mobile-menu-btn
     let navbarToggler = document.querySelector(".mobile-menu-btn");
     navbarToggler.addEventListener('click', function () {
