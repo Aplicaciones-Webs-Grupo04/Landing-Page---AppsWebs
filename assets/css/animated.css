@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
 .animated {
     -webkit-animation-duration: 1s;
@@ -78,8 +79,6 @@
     -webkit-animation-name: flash;
     animation-name: flash;
 }
-
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
 @-webkit-keyframes pulse {
     0% {
